@@ -1,0 +1,21 @@
+---
+kind: "operation"
+client: "atomist-bot"
+generator:
+  name: "NewSpringBootRestService"
+  group: "atomist-rugs"
+  artifact: "spring-boot-rest-service"
+  version: "0.8.0"
+  origin:
+    repo: "https://github.com/atomist-rugs/spring-boot-rest-service.git"
+    branch: "cd15bc2ad059ade8a866cbf44dd41c0d693ceda3"
+    sha: "cd15bc2"
+  parameters:
+    - "project_name": "spring-boot-test-project1"
+    - "artifactId": "myartifact"
+    - "groupId": "mygroup"
+    - "version": "0.1.0-SNAPSHOT"
+    - "description": "My new project"
+    - "rootPackage": "com.myorg"
+    - "serviceClassName": "Test"
+
